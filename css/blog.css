@@ -1,0 +1,47 @@
+/* BASE */
+
+body {
+
+  border: 20px solid #BDC3C7;
+  padding: 20px;
+
+  max-width: 700px;
+  width: 80%;
+  margin: 20px auto;
+
+  font-family: 'Source Sans Pro';
+  font-weight: 500;
+
+}
+
+
+/* BLOCK */
+
+.post {margin-bottom: 20px;}
+
+
+/* ELEMENTS */
+
+.post__date {
+  color: #3498DB;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+
+.post__quote {
+  border-left: 5px solid #BDC3C7;
+  padding-left: 5px;
+}
+
+.post__header {
+  color: #2C3E50;
+  font-size: 2.0rem;
+}
+
+.post__divider {
+  border: 0;
+  height: 1px;
+
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
